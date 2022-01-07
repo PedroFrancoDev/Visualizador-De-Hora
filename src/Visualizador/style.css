@@ -1,0 +1,152 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+    font-family: roboto;
+}
+
+html, body {
+    height: 100%;
+}
+
+body {
+    position: absolute;
+    width: 100%;
+}
+
+input {
+   border-radius: 8px;
+   padding: 10px 20px;
+   margin-right: 10px;
+   font-size: 16px;
+   box-shadow: 1px 1px 4px rgba(71, 71, 71, 0.5);
+   outline: none;
+   background: #f7d1fd;
+}
+
+header {
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    object-fit: cover;
+    position: relative;
+    background: #b64fc9;
+}
+
+button#verHora {
+    box-shadow: 1px 1px 4px rgba(71, 71, 71, 0.5);
+    border-radius: 8px;
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    transition: 0.5s;
+    color: #3a3a3a;
+    background: #f7d1fd;
+}
+
+button#verHora:hover {
+    background: #dc8beb;
+    color: #fff;
+}
+
+button#verHora:active {
+    border: solid 1px #b64fc9;
+    padding: 5px 10px;
+}
+
+img#relogioIcon {
+    width: 50px;
+    position: absolute;
+    top: 400px;
+    right: 840px;
+    transition: 0.5s;
+}
+
+img#folhas {
+    position: absolute;
+    right: 450px;
+    top: 400px;
+    width: 50px;
+    transition: 0.5s;
+}
+
+img#fones {
+    width: 50px;
+    position: absolute;
+    top: 160px;
+    right: 600px;
+    transition: 0.5s;
+}
+
+img#relogioIcon:hover {
+    width: 80px;
+} 
+
+img#fones:hover {
+    width: 80px;
+} 
+
+img#folhas:hover {
+    width: 80px;
+} 
+
+section#fundo {
+    background: url('../Assets/img/switzerland_alps_mountains_night_beautiful_landscape_99817_1920x1080.jpg');
+    height: 100%;
+    width: 100%;
+    background-repeat: no-repeat;
+    object-fit: cover;
+    position: relative;
+    top: -100%;
+    display: none;
+}
+
+div#modal {
+    background: #fff;
+    border-radius: 8px;
+    padding: 10px 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    left: 40%;
+    top: 30%;
+}
+
+p {
+    border-bottom: solid 1px #eee;
+    padding-bottom: 15px;
+}
+
+small#hora {
+    font-weight: bold;
+    font-size: 16px;
+    padding: 5px 10px;
+    border-radius: 8px;
+    box-shadow: 1px 1px 4px rgba(71, 71, 71, 0.5);
+}
+
+img#img {
+    width: 130px;
+    height: 130px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin: 20px;
+    box-shadow: 5px 5px 4px rgba(71, 71, 71, 0.5);
+}
+
+aside {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+
+button#sair {
+    margin: 20px;
+    background: none;
+    color: rgb(252, 58, 58);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
